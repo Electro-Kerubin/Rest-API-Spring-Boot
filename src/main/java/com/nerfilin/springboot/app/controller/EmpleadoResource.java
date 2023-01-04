@@ -16,6 +16,7 @@ import com.nerfilin.springboot.app.models.Empleado;
 import com.nerfilin.springboot.app.service.empleadoService;
 
 @RestController
+@CrossOrigin
 @RequestMapping("/empleado")
 public class EmpleadoResource {
 
