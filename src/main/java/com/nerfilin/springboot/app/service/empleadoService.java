@@ -39,6 +39,7 @@ public class empleadoService {
 	}
 	
 	public void deleteEmpleado(Long id) {
-		er.deleteEmpleadoById(id);
+		// er.deleteEmpleadoById(id);
+		er.deleteById(id);
 	}
 }

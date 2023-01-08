@@ -8,7 +8,7 @@ import com.nerfilin.springboot.app.models.Empleado;
 
 public interface EmpleadoRepo extends JpaRepository<Empleado, Long> {
 
-	void deleteEmpleadoById(Long id);
+	// void deleteEmpleadoById(Long id);
 
 	Optional<Empleado> findEmpleadoById(Long id);
 
